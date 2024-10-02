@@ -1,0 +1,42 @@
+{
+    "headers": ["ID", "Name", "Occupation", "Age"],
+    
+    
+    "rows": [
+      {
+        "ID": 1,
+        "Name": "James",
+        "Occupation": "Software Engineer",
+        "Age": 30
+      },
+      {
+        "ID": 2,
+        "Name": "Sophia",
+        "Occupation": "Data Scientist",
+        "Age": 28
+      },
+      {
+        "ID": 3,
+        "Name": "Michael",
+        "Occupation": "Product Manager",
+        "Age": 35
+      },
+      {
+        "ID": 4,
+        "Name": "Emma",
+        "Occupation": "UX Designer",
+        "Age": 26
+      },
+      {
+        "ID": 5,
+        "Name": "William",
+        "Occupation": "Web Developer",
+        "Age": 29
+      }
+    ],
+    "columns": {
+      "ID": [1, 2, 3, 4, 5],
+      "Name": ["James", "Sophia", "Michael", "Emma", "William"],
+      "Occupation": ["Software Engineer", "Data Scientist", "Product Manager", "UX Designer", "Web Developer"],
+      "Age": [30, 28, 35, 26, 29] }
+  }

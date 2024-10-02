@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("src\pexels-danielabsi-952670.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px); 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+th {
+    background-color: #4CAF50; 
+    text-align: left;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(240, 240, 240, 0.8); 
+}
+
+tr:hover {
+    background-color: rgba(200, 200, 200, 0.6); 
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px; 
+    }
+}

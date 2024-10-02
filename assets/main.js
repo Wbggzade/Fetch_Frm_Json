@@ -16,8 +16,25 @@ async function LoadingIntoHTML(Url , table){
         const headerElement = document.createElement("th");
         headerElement.textContent = text;
         tableHead.querySelector('tr').appendChild(headerElement);
+    
 
         } 
+        for(row of rows){
+            const rowElement = document.createElement("th");
+
+
+            for(cell of row){
+                const CellText = document.createElement("td");
+                CellText.textContent = cell;
+                rowElement.appendChild(CellText);
+
+            }
+            tableBody.appendChild(rowElement);
+            
+
+
+
+        }
         
         
 
